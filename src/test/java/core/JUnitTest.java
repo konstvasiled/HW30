@@ -14,12 +14,12 @@ public class JUnitTest {
     }
 
     @Before
-    public static void before() {
+    public void before() {
         System.out.println("\tBefore Test");
     }
 
     @After
-    public static void after() {
+    public void after() {
         System.out.println("\tAfter Test");
     }
 
