@@ -19,8 +19,8 @@ public class JUnitTest {
     }
 
     @After
-    public static void after("\tAfter Test") {
-        System.out.println();
+    public static void after() {
+        System.out.println("\tAfter Test");
     }
 
     @Test
